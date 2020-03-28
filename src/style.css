@@ -177,6 +177,10 @@ i {
   color: gray;
 }
 
+.item-img img {
+  max-width: 425px;
+}
+
 .item-info {
   padding: 1rem;
 }
