@@ -178,7 +178,7 @@ i {
 }
 
 .item-img img {
-  max-width: 425px;
+  max-width: 100%;
 }
 
 .item-info {
