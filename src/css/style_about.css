@@ -84,9 +84,9 @@ video {
   background: transparent;
 }
 
-body {
+/* body {
   line-height: 1;
-}
+} */
 
 article,
 aside,
@@ -174,7 +174,7 @@ select {
 
 body {
   margin: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #f4f4f4;
 }
 
