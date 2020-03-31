@@ -268,7 +268,7 @@ footer {
         width: 50%;
     }
     .item-img img {
-        max-width: -webkit-fill-available;
+        width: 100%;
     }
 }
 

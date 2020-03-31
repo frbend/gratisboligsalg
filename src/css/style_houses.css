@@ -1,151 +1,136 @@
 /*Slideshow container*/
 
 .slideshow-container {
-  max-width: initial;
-  position: relative;
-  margin: auto;
-  margin-top: 5%;
+    max-width: initial;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
 }
 
 .mySlides {
-  display: none;
+    display: none;
 }
+
 
 /* Next & previous buttons */
 
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+
 
 /* Position the "next button" to the right */
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Fading animation */
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 /*Main section*/
 
 main {
-  margin-top: 65px;
-  width: 100%;
+    margin-top: 65px;
+    width: 100%;
 }
 
 .info {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .btn {
-  background-color: #ae9844;
-  font-family: "Source Sans Pro", sans-serif, 600;
-  border-radius: 18px;
-  box-shadow: 2px 2px 3px grey;
-  font-style: italic;
-  margin: 0 25% 0 25%;
-  width: 50%;
+    background-color: #ae9844;
+    font-family: "Source Sans Pro", sans-serif, 600;
+    border-radius: 18px;
+    box-shadow: 2px 2px 3px grey;
+    font-style: italic;
+    margin: 0 25% 0 25%;
+    width: 50%;
 }
 
 .btn a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
+.img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Medium Sreen / ≥ 768px */
 
 @media screen and (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .btn {
-    width: 20%;
-    margin: 0 40% 0 40%;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
+    .header li {
+        float: left;
+    }
+    .btn {
+        width: 20%;
+        margin: 0 40% 0 40%;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
 }
+
 
 /* Laptops --> Screen = B/w 1025px to 1280px */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .img {
-    width: 80%;
-  }
-  main {
-    padding-top: 0.1%;
-  }
-  .info {
-    display: grid;
-    grid-template-areas: ". a b c.";
-    grid-gap: 20px;
-    height: 440;
-    padding: 1rem;
-  }
-  .left {
-    grid-area: a;
-  }
-  .right {
-    grid-area: b;
-    width: 100%;
-    justify-self: right;
-    padding-left: 10%;
-  }
+    .img {
+        width: 80%;
+    }
+    main {
+        padding-top: 0.1%;
+    }
+    .info {
+        display: grid;
+        grid-template-areas: ". a b c.";
+        grid-gap: 20px;
+        height: 440;
+        padding: 1rem;
+    }
+    .left {
+        grid-area: a;
+    }
+    .right {
+        grid-area: b;
+        width: 100%;
+        justify-self: right;
+        padding-left: 10%;
+    }
 }
+
 
 /*Phones --> portrait Screen = B/w 320px to 479px*/
 
-@media (min-width: 320px) and (max-width: 480px) {
-}
+@media (min-width: 320px) and (max-width: 480px) {}
